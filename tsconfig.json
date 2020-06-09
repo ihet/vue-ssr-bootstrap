@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "types": ["src/typings" , "node_modules/@types" ]
+    },
+    "include": ["src/**/*.js","src/**/*.ts","src/**/*.d.ts","build/**/*.ts","server/**/*.ts"],
+    "exclude": ["node_modules"]
+}

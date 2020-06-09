@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "ES2015",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "types": ["../src/typings" , "../node_modules/@types" ]
+    },
+    "include": ["./**/*.js","./**/*.ts","./**/*.d.ts"],
+    "exclude": ["../node_modules"]
+}
